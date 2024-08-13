@@ -1,0 +1,42 @@
+/* styles.css */
+
+.chat-container {
+    background-color: #f0f0f0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-box {
+    width: 500px;
+    height: 700px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+    border-radius: 16px;
+    padding: 8px;
+    max-width: 80%;
+}
+
+.message.assistant {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+.message.user {
+    background-color: #007bff;
+    color: white;
+}
+
+.send-button {
+    color: white;
+    background-color: #007bff;
+}
